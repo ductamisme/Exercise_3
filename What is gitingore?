@@ -1,0 +1,51 @@
+1. Tại sao (Why):
+Tại sao chúng ta sử dụng tệp .gitignore?
+  - Để chỉ định các tệp không được theo dõi một cách có ý định mà Git nên bỏ qua.
+
+2. Cái gì (What):
+Các tệp hoặc mẫu nào nên được bỏ qua?
+  - Bỏ qua các tệp nhị phân biên dịch, tệp nhật ký, tệp tạm thời và các tệp được tạo ra trong quá trình xây dựng.
+
+3. Ở đâu (Where):
+Nơi đặt tệp .gitignore?
+  - Ở thư mục gốc của dự án Git của bạn.
+
+4. Khi nào (When):
+Khi nào chúng ta nên sử dụng tệp .gitignore?
+  - Mọi khi bạn muốn loại bỏ những tệp hoặc thư mục cụ thể khỏi quản lý phiên bản.
+
+5. Ai (Who):
+Ai hưởng lợi từ tệp .gitignore?
+  - Những Developerlàm việc trên dự án, muốn tránh việc commit và theo dõi những tệp không cần thiết.
+
+6. Làm thế nào (How):
+Làm thế nào để tạo một tệp .gitignore cơ bản?
+  - Tạo một tệp mới có tên là `.gitignore` trong thư mục gốc của dự án Git của bạn.
+  - Thêm các mẫu cho các tệp hoặc thư mục cần bị bỏ qua.
+
+# Bỏ qua các tệp được tạo ra bởi Android Studio
+/.idea
+/.gradle
+/local.properties
+/.build
+/captures
+*.iml
+-- tất nhiên là không khuyến khích ---(-\_(""\)_/-)-------
+
+Bỏ qua các tệp nhật ký
+*.log
+
+# Bỏ qua các tệp tạm thời
+*.tmp
+*.temp
+
+# Bỏ qua các tệp được tạo ra bởi IDEs
+/.idea
+/.android
+
+# Bỏ qua các thư mục xây dựng
+/target/
+/build/
+/out/
+```
+
