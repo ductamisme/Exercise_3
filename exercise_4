@@ -1,0 +1,18 @@
+Waterfall là mô hình phát triển phần mềm truyền thống đã được ra đời từ các đây rất lâu, tuy vậy không phải bất cứ project nào khi bắt đầu xây dựng cũng xài nó.
+Lý do là vì mặc mô hình waterfall này vẫn còn một vài điểm hạn chế:
+  1. Nó không phải là một mô hình tối ưu cho việc phát triển các project lớn
+  2. Nếu Requirement của dự án từ đầu đã không rõ ràng thì việc sử dụng waterfall là không hợp lý
+  3. Và nếu như trong quá trình phát triển dự án mà gặp phải lỗi thì sẽ rất rắc rối bởi vì trong waterfall thì input của bước này chính là output của bước trước đó 
+
+Mặc dù waterfall có những nhược điểm như vậy và hiện nay chúng ta cũng đã có Agile, nhưng mô hình waterfall vẫn sẽ có thể được áp dụng trong nhiều trường hợp cụ thể:
+  1. Yêu cầu rõ ràng: Nếu như ở bước Requirements của dự án được làm tốt các yêu cầu dễ hiểu, ổn định và sẽ không thay đổi trong quá trình phát triển sản phầm
+  thì waterfall có thể sẽ hữu dụng. Bời vì nếu ngay từ đầu các yêu cầu được làm rõ vậy thì đơn giản là ta sẽ không quan tâm đến nó nữa mà nhảy sảng thẳng thằng design
+  2. Các project vừa và nhỏ: Waterfall có thể sẽ làm việc tốt với các project vừa và nhỏ khi mà nó được clear ngay từ đầu và có các giới hạn rõ ràng. Các project lớn 
+  thì cần các yêu cầu phức tập và còn lặp đi lặp lại có lẽ sẽ không quá cần thiết với các project nhỏ.
+  3. Các ngành quản lý: Như ở trong các ngành cần phải tuân thủ các quy trình nghiêm ngặt như tài chính ngân hàng, chăm sóc sức khoẻ. Nhưng cái nơi mà họ cần các có 
+  tài liệu rõ ràng cũng như là nguồn gốc rõ ràng thì waterfall lại vô cùng phù hợp. Vì nó cũng chính là một trong các yêu cầu của waterfall cần phải có documentation 
+  4. Những cái hệ thống quan trọng: Có thể với các project có các hệ thống quan trọng, khi mà việc thất bại sẽ để lại hậu quả vô cùng nghiêm trọng thì waterfall sẽ rất hợp lý.
+  Vì khi sử lên kế hoạch sử dụng waterfall sẽ cần phải được testing cẩn thật và có sự kiểm soát nhất định để dự đoán những điều gì có thể xảy ra.
+  5. Yêu cầu của khách hàng: Well khách hàng là thượng đế và trong một số trường hợp có thể họ sẽ thích sử dụng waterfall hơn, đặc biệt là khi họ cảm thấy thoải mái
+  vì cái cấu trúc và quá trình làm ra sản phẩm được thực hiện một các tuần tự, nó cho thấy được tiến độ hoàn thành mỗi khi đạt được một cột mốc nào trong việc phát triển.
+  (e chỉ ví dụ thôi nếu như mà stakeholders thấy mình cứ dăm bữa nửa tháng hay 2,3 tuần đổi code một lần thì cũng rén đấy \_(''/)_/ )
