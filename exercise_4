@@ -5,14 +5,38 @@ Lý do là vì mặc mô hình waterfall này vẫn còn một vài điểm hạ
   3. Và nếu như trong quá trình phát triển dự án mà gặp phải lỗi thì sẽ rất rắc rối bởi vì trong waterfall thì input của bước này chính là output của bước trước đó 
 
 Mặc dù waterfall có những nhược điểm như vậy và hiện nay chúng ta cũng đã có Agile, nhưng mô hình waterfall vẫn sẽ có thể được áp dụng trong nhiều trường hợp cụ thể:
-  1. Yêu cầu rõ ràng: Nếu như ở bước Requirements của dự án được làm tốt các yêu cầu dễ hiểu, ổn định và sẽ không thay đổi trong quá trình phát triển sản phầm
+  1. Yêu Cầu Rõ Ràng: Nếu như ở bước Requirements của dự án được làm tốt các yêu cầu dễ hiểu, ổn định và sẽ không thay đổi trong quá trình phát triển sản phầm
   thì waterfall có thể sẽ hữu dụng. Bời vì nếu ngay từ đầu các yêu cầu được làm rõ vậy thì đơn giản là ta sẽ không quan tâm đến nó nữa mà nhảy sảng thẳng thằng design
-  2. Các project vừa và nhỏ: Waterfall có thể sẽ làm việc tốt với các project vừa và nhỏ khi mà nó được clear ngay từ đầu và có các giới hạn rõ ràng. Các project lớn 
+  2. Các Project Vừa và Nhỏ: Waterfall có thể sẽ làm việc tốt với các project vừa và nhỏ khi mà nó được clear ngay từ đầu và có các giới hạn rõ ràng. Các project lớn 
   thì cần các yêu cầu phức tập và còn lặp đi lặp lại có lẽ sẽ không quá cần thiết với các project nhỏ.
-  3. Các ngành quản lý: Như ở trong các ngành cần phải tuân thủ các quy trình nghiêm ngặt như tài chính ngân hàng, chăm sóc sức khoẻ. Nhưng cái nơi mà họ cần các có 
+  3. Các Ngành Quản Lý: Như ở trong các ngành cần phải tuân thủ các quy trình nghiêm ngặt như tài chính ngân hàng, chăm sóc sức khoẻ. Nhưng cái nơi mà họ cần các có 
   tài liệu rõ ràng cũng như là nguồn gốc rõ ràng thì waterfall lại vô cùng phù hợp. Vì nó cũng chính là một trong các yêu cầu của waterfall cần phải có documentation 
-  4. Những cái hệ thống quan trọng: Có thể với các project có các hệ thống quan trọng, khi mà việc thất bại sẽ để lại hậu quả vô cùng nghiêm trọng thì waterfall sẽ rất hợp lý.
+  4. Các hệ Thống Quan Trọng: Có thể với các project có các hệ thống quan trọng, khi mà việc thất bại sẽ để lại hậu quả vô cùng nghiêm trọng thì waterfall sẽ rất hợp lý.
   Vì khi sử lên kế hoạch sử dụng waterfall sẽ cần phải được testing cẩn thật và có sự kiểm soát nhất định để dự đoán những điều gì có thể xảy ra.
-  5. Yêu cầu của khách hàng: Well khách hàng là thượng đế và trong một số trường hợp có thể họ sẽ thích sử dụng waterfall hơn, đặc biệt là khi họ cảm thấy thoải mái
+  5. Yêu Cầu Của Khách Hàng: Well khách hàng là thượng đế và trong một số trường hợp có thể họ sẽ thích sử dụng waterfall hơn, đặc biệt là khi họ cảm thấy thoải mái
   vì cái cấu trúc và quá trình làm ra sản phẩm được thực hiện một các tuần tự, nó cho thấy được tiến độ hoàn thành mỗi khi đạt được một cột mốc nào trong việc phát triển.
   (e chỉ ví dụ thôi nếu như mà stakeholders thấy mình cứ dăm bữa nửa tháng hay 2,3 tuần đổi code một lần thì cũng rén đấy \_(''/)_/ )
+
+Ví dụ cụ thể:
+  - e lấy ví dụ về ngân hàng như có đề cập trên kia :
+    1. Introduce:
+      - Tổng Quan: Hệ thống ngân hàng trực tuyến nhằm cung cấp cho khách hàng một nền tảng an toàn và thân thiện với người dùng để quản lý tài khoản, 
+        thực hiện giao dịch và truy cập các dịch vụ ngân hàng.
+      - Mục Tiêu và Kế Hoạch Dự Án: Nâng cao trải nghiệm khách hàng, cải thiện biện pháp an ninh và đảm bảo dịch vụ ngân hàng trực tuyến hiệu quả và đáng tin cậy.
+    2. Functional Requirements:
+      - Quản Lý Tài Khoản: Người dùng có thể tạo, chỉnh sửa và đóng các loại tài khoản khác nhau, chẳng hạn như tiết kiệm và thanh toán.
+        Xác định các quy tắc cho việc tạo tài khoản và các tài liệu cần thiết.
+      - Chuyển Khoản Tiền: Người dùng có thể chuyển khoản giữa các tài khoản của họ và đến các tài khoản khác trong hệ thống ngân hàng. 
+        Thực hiện giới hạn giao dịch, quy trình phê duyệt và thông báo thời gian thực.
+      - Tạo Bảng Kê Chi Tiêu: Cung cấp khả năng tạo và tải xuống bảng kê khai tài khoản cho một khoảng thời gian nhất định.
+        Xác định định dạng, tần suất và phương thức giao dịch.
+      - Lịch Sử Giao Dịch: Người dùng có thể xem và tìm kiếm lịch sử giao dịch của họ. Bao gồm tùy chọn lọc, sắp xếp theo ngày và chức năng xuất.
+    3. Non-functional Requirements: 
+      - Yêu Cầu Hiệu Suất: Thời gian phản hồi cho các thao tác thông thường (ví dụ: đăng nhập, chuyển khoản tiền) phải ít hơn 3 giây.
+        Hệ thống phải hỗ trợ ít nhất 5,000 người dùng đồng thời mà không làm suy giảm hiệu suất đáng kể.
+      - Yêu Cầu Bảo Mật: Tất cả dữ liệu truyền thông phải được mã hóa bằng các giao thức tiêu chuẩn của ngành.
+        Thực hiện xác thực đa yếu tố cho việc đăng kí tài khoản người dùng ( ví dụ: người dùng càn cung cấp CCCD và ảnh chân dung).
+      - Độ Tin Cậy và Sẵn Có: Hệ thống phải có thời gian hoạt động là 99,99%.
+        Thực hiện các quy trình sao lưu định kỳ và một kế hoạch khôi phục sự cố ( ví dụ: Thông tin khách hàng bị mất hoặc thiếu mất một số hạng mục).
+
+  - Hình như là còn nhiểu yêu cầu nữa nhưng mà e thấy hơi nhiều nên thôi ạ :)))))))
