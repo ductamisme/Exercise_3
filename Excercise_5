@@ -1,0 +1,129 @@
+Thông tin về vòng đời phát triển phần mềm có thể được viết lại như sau để có tính logic và trình bày rõ ràng hơn:
+
+Vòng Đời Phát Triển Phần Mềm
+
+Waterfall Model
+
+Model Waterfall trong kỹ thuật phần mềm là một phương pháp tiếp cận tuần tự, trong đó mỗi bước phát triển tiếp theo chỉ bắt đầu khi bước trước đó đã hoàn thành. Dưới đây là một số đặc điểm chính của Waterfall Model:
+
+1. Yêu Cầu Xác Định Rõ Ràng:
+   - Mọi yêu cầu về chức năng và phi chức năng được xác định một cách rõ ràng từ đầu.
+
+2. Môi Trường Phát Triển Ổn Định:
+   - Môi trường phát triển được duy trì ổn định trong suốt quá trình phát triển.
+
+3. Dễ Hiểu, Dễ Triển Khai:
+   - Phương pháp này dễ hiểu và triển khai, đặc biệt là cho các dự án có yêu cầu xác định trước.
+
+4. Dễ Dàng Cho Việc Tracking:
+   - Việc theo dõi tiến độ thực hiện một cách tuần tự từng bước một.
+
+5. Tài Liệu Thiết Kế Sớm:
+   - Tài liệu thiết kế được tạo sớm trong quá trình phát triển.
+
+6. Quy Trình Phát Triển Tuần Tự:
+   - Quy trình tiếp cận từng bước một: Yêu Cầu -> Thiết Kế -> Phát Triển -> Kiểm Thử -> Triển Khai -> Bảo Trì.
+
+7. Tập Trung Chủ Yếu Vào Giai Đoạn Phát Triển:
+   - Chú trọng vào giai đoạn phát triển phần mềm, đặc biệt là quá trình gia công phần mềm.
+
+8. Yêu Cầu Cho Người Phát Triển Thực Thụ:
+   - Nếu muốn trở thành một nhà phát triển thực thụ, cần hiểu rõ về từng giai đoạn, đặc biệt là yêu cầu.
+
+Quản lý Yêu Cầu (SRS - Software Requirement Specification)
+
+| STT | Tiêu Đề                | Người Thực Hiện | Ngày       | Ghi Chú                         |
+|-----|------------------------|-----------------|------------|---------------------------------|
+| 1   | Yêu Cầu Chức Năng      | Tâm             | 3/1/2024   | Tạo đủ các chức năng            |
+| 2   | ...                    | ...             | ...        | ...                             |
+
+Glossary
+
+| STT | Ví Dụ                  | Từ Ngữ Tiếng Anh  | Từ Ngữ Tiếng Việt   |
+|-----|------------------------|-------------------|---------------------|
+| 1   | Acquainted with        | Acquainted with   | Làm Quen Với        |
+| 2   | ...                    | ...               | ...                 |
+
+Phụ Lục Yêu Cầu Chức Năng
+
+Yêu Cầu Chức Năng:
+1. Học sinh phải đăng nhập.
+2. Học sinh có thể vào lớp.
+
+Yêu Cầu Phi Chức Năng:
+1. Chạy có nhanh không.
+2. Nhiều người dùng được không/cùng lúc.
+
+Thiết Kế
+
+- Tài Liệu Phân Tích Thiết Kế:
+  - Sử dụng UML/UI UX (OOP): use case, class, data flow.
+  - Thiết kế giao diện người dùng bằng Figma.
+  - High-level design.
+
+- Backend:
+  - Đọc giao diện để thiết kế trả ít trường hơn request/response.
+
+Phát Triển
+
+- Viết mã Frontend/Backend API, job (các công việc tự động như thông báo trừ tiền, thuật toán).
+- Output là một sản phẩm hoàn chỉnh.
+
+Kiểm Thử Phần Mềm
+
+- Unit test: Kiểm thử đơn vị.
+- Integration test: Kiểm thử tích hợp.
+- System test: Kiểm thử lại một luồng mới.
+- Acceptance test: Kiểm thử cuối cùng trước khi triển khai.
+
+Triển Khai (Publish)
+
+- Chạy mã nguồn trên server.
+- Hệ thống có thể truy cập internet và mọi người đều có thể truy cập.
+
+Bảo Trì
+
+- Sửa lỗi phát sinh sau khi triển khai mà người dùng phát hiện ra, thường xuất hiện ngay sau triển khai.
+
+Nhược Điểm Của Waterfall:
+
+- Phát hiện lỗi muộn.
+- Khó khăn trong việc ước lượng thời gian và chi phí.
+- Thiếu linh hoạt.
+- Lỗi hồi quy.
+
+Agile
+
+- Agile tránh được lỗi hồi quy do sự thay đổi của khách hàng.
+- Agile là một triết lý về làm thế nào để nhanh chóng thích ứng với sự thay đổi.
+
+Các Nguyên Tắc Của Agile
+
+1. Thoả Mãn Khách Hàng Qua Việc Giao Sớm Các Phần Mềm Có Giá Trị.
+2. Chào Đón Thay Đổi Yêu Cầu.
+3. Linh Hoạt Trong Các Quy Trình Để Tận Dụng Sự Thay Đổi Cho Lợi Thế Cạnh Tran.
+4. Chuyển Giao Phần Mềm Chạy Tốt Đến Khách Hàng Thường Xuyên.
+5. Nhà Kinh Doanh Và Nhà Phát Triển Làm Việc Cùng Nhau Trong Suốt Dự Án.
+6. Xây Dựng Dự Án Quanh Các Nhóm Tự Tổ Chức.
+7. Hội Thoại Trực Tiếp Là Phương Pháp Tốt Nhất Để Truyền Đạt Thông Tin Nội Bộ.
+8. Phần Mềm Chạy Tốt Là Thước Đo Tiến Độ.
+9. Các Quy Trình Linh Hoạt Thúc Đẩy Phát Triển Bền Vững.
+
+Các Chiếc Ô Agile:
+
+- Scrum.
+- Extreme Programming.
+- Kanban.
+- Scrumban.
+- Spotify (squad, trio, guild, alliance).
+
+Công Cụ:
+
+- Jira.
+- Trello.
+- GitHub.
+- Excel.
+
+Chú Ý:
+- Một khi đã bắt đầu Sprint, không được phép thay đổi, ngoại trừ lỗi cần sửa giữa Sprint.
+- Bức tường thất bại.
