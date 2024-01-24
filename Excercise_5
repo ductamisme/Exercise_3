@@ -59,7 +59,7 @@ Thiết Kế
   - Thiết kế giao diện người dùng bằng Figma.
   - High-level design.
 
-- Backend:
+- Backend (nên):
   - Đọc giao diện để thiết kế trả ít trường hơn request/response.
 
 Phát Triển
@@ -97,15 +97,20 @@ Agile
 
 Các Nguyên Tắc Của Agile
 
-1. Thoả Mãn Khách Hàng Qua Việc Giao Sớm Các Phần Mềm Có Giá Trị.
-2. Chào Đón Thay Đổi Yêu Cầu.
-3. Linh Hoạt Trong Các Quy Trình Để Tận Dụng Sự Thay Đổi Cho Lợi Thế Cạnh Tran.
-4. Chuyển Giao Phần Mềm Chạy Tốt Đến Khách Hàng Thường Xuyên.
-5. Nhà Kinh Doanh Và Nhà Phát Triển Làm Việc Cùng Nhau Trong Suốt Dự Án.
-6. Xây Dựng Dự Án Quanh Các Nhóm Tự Tổ Chức.
-7. Hội Thoại Trực Tiếp Là Phương Pháp Tốt Nhất Để Truyền Đạt Thông Tin Nội Bộ.
-8. Phần Mềm Chạy Tốt Là Thước Đo Tiến Độ.
-9. Các Quy Trình Linh Hoạt Thúc Đẩy Phát Triển Bền Vững.
+1. Ưu tiên cao nhất là thoả mãn khách hàng thông qua chuyển giao sớm các phần mềm có giá trị
+2. Chào đón việc thay đổi yêu cầu, 
+3. Các quy trình linh hoạt tận dụng sự thay đổi trong các lợi thế cạnh tranh của khách hàng
+4. Thường xuyên chuyển giao phần mềm chạy tốt đến khách hàng ưu tiên các khoảng thời gian ngắn hơn
+5. Nhà kinh doanh nhà phát triển làm việc với nhau trong suốt dự án
+6. Xây dựng các dự án xung quanh những các nhân có động lực cung cấp cho họ môi trường và sự hỗ trợ cần thiết và tin tưởng họ để thoả sức sáng tạo
+7. Hội thoại trực tiếp là phương pháp tốt nhất để truyền đạt thông tin nội bộ
+8.  Phần mềm chạy tốt là thước đo của tiến độ
+9. Các quy trinh linh hoạt thúc đẩy phát triển bền vững:có thể duy trì một nhịp độ không giới hạn
+10. Liên tục quan tâm đến các kĩ thuật thiết kế tốt để gia tăng sự linh hoạt ( spotyfy frame work)
+11. Sự đơn giản, nghệ thuật tối đa hoá lượng công việc chưa xong là căn bản còn tồn đọng
+12. Các kiến trúc tốt, yêu cầu tốt nhất, thiết kế tốt nhất, thì được làm gia bởi các nhóm tự tổ chức
+- Nhóm phát triển thường xuyên nghĩ về việc làm sao để trở nên hiệu quả hơn (retrospective) 
+(đoạn này hình như kh có nằm trong tuyên ngôn nhưng cần phải để ý )
 
 Các Chiếc Ô Agile:
 
